@@ -9,7 +9,7 @@ from django.core.management.base import BaseCommand
 
 
 class Command(BaseCommand):
-    """Django cmmand to wait for databse."""
+    """Django command to wait for databse."""
 
     def handle(self, *args, **options):
         """Entrypoint for command."""
